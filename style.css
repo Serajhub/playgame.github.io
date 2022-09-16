@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(76, 29, 149);
+    color: rgb(243, 249, 168);
+    text-align: center;
+}
+
+.content{
+    margin: auto;
+    padding: 3rem 0;
+}
+
+label, input{
+    display: block;
+    padding: 0.5rem;
+}
+
+input{
+    text-align: center;
+    margin: 0 auto;
+}
+
+button{
+    background: rgb(249, 168, 212);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+input, button {
+    border-radius: 1rem;
+}
+
+footer {
+    background: crimson;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+footer p {
+    text-align: center;
+    display: inline;
+}
+
+footer p a {
+    color: white;
+    background: var(--secondary-color);
+    padding: 0.3rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
